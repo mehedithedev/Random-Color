@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Distressed&family=Ubuntu:wght@500&display=swap');
+
+body{
+    background-color: gainsboro;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Ubuntu', sans-serif;
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Rubik Distressed', cursive;
+}
+button{
+    font-size: 30px;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Open Sans',-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,  'Helvetica Neue', sans-serif;
+    padding: 10px;
+}
+/* This protion of the CSS code is to make the website responsive 
+*/
+@media (max-width:720px){
+    h1{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    button{
+        font-size: 10px;
+    }
+}
+
+@media (max-width:424px){
+    h1{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 10px;
+    }
+    button{
+        font-size: 7px;
+    }
+}
